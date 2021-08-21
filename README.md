@@ -1,50 +1,315 @@
-## Nombre de proyecto
-
-Puede utilizar el [editor en GitHub](https://github.com/CdeCMx-org/templates_paginaweb/edit/main/README.md) para mantener y obtener una vista previa del contenido de su sitio web en archivos Markdown. Siempre que guardes los cambios en este repositorio, GitHub Pages ejecutará [Jekyll](https://jekyllrb.com/) para reconstruir las páginas de su sitio, a partir del contenido de sus archivos Markdown. Puedes escoger otro template en la siguiente página [repository settings](https://github.com/CdeCMx-org/templates_paginaweb/settings/pages). El tema de este template fue guardado en `_config.yml`.
-
-El URL generado de tu página lo puedes encontrar en Settings -> Pages. 
-
-*Puedes ver los cambios reflejados en la página, solo toma en cuenta que puede tomar unos minutos en cambiar.*
-
-### Introducción
-
-Describe de qué trata tu proyecto:
-* ¿qué problema vas a abordar?
-* ¿porqué es importante?
-* ¿cómo se relaciona con la **ODS** asignada a tu club? 
-* ¿cómo se relaciona lo aprendido en tu club para resolver el problema que planteaste?
-
-### Métodología
-
-Describe los pasos específicos que tomaste para realizar tu proyecto. Trata de hacer una descripción concreta y detallada. Si aplica, puedes incluir un diagrama describiendo el procedimiento. 
-
-### Resultados
-
-Este es el momento en que nos compartas los resultados obtenidos en tu proyecto. Asegurate de incluir material visual (gráficas, fotos, diagramas, tablas). 
-
-Puedes inster imagenes utilizando Markdown `![](Logo_CdeCMx.png)`.
-
-![](Logo_CdeCMx.png)
-
-O utilizando codigo html `<img src="Logo_CdeCMx.png" width=200>`, la ventaja de utilizar html es que le puedes modificar el tamaño utilizando **width**.
-<img src="Logo_CdeCMx.png" width=200>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>cdcmx challenge 2021</title>  <!-- TITULO DE PESATAÑA DE LA WEB-->
+        <link rel="icon" type="image/x-icon" href="assets/img/icon-cov.ico" />  <!-- ICONO DE LA PESTAÑA DE LA WEB-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
 
 
-### Conclusiones
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top" id="sideNav"> <!--WARNING CAMBIAR navbar-light-(navbar-dark) correct-->
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">cdcmx challenge </span>        <!-- TITULO DEL SLIDEBAR O SELECTOR DE MENU-->
+                <span class="d-none d-lg-block"><img src="assets/img/cdcmx (2).png" alt="" /></span> <!-- FOTO PARA PERFIL DEL MENU-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#intro">INTRODUCCION</a></li>  <!-- TITULO INTRO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#uno">ENERGÍAS RENOVABLES</a></li> <!-- TITULO UNO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#dos">¿POR QUÉ JUCHITÁN, OAXACA?</a></li> <!-- TITULO DOS DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#tres">UNA CASA SUSTENTABLE</a></li> <!-- TITULO TRES DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cuatro">MATERIALES</a></li> <!-- TITULO CUATRO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#cinco">REFERENCIAS</a></li> <!-- TITULO CINCO DEL MENU-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">EQUIPO</a></li> <!-- TITULO TEAM DEL MENU-->
+                </ul>
+            </div>
+        </nav>
 
-Comparte tus observaciones, lo aprendedido, limitaciones y siguientes pasos. 
 
-### Video
- 1. Para insertar un video de YouTube, en la página de YouTube del video selecciona compartir y selecciona el código de html.
- <iframe width="560" height="315" src="https://www.youtube.com/embed/PLj1-CMNERM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
- 2. Insertar el link de tu video en YouTube, [nuestro video](https://youtu.be/rmXvlBPq24Q).
- 4. Puedes subir el archivo de tu video directamente a Github [instrucciones aquí](https://stackoverflow.com/questions/4279611/how-to-embed-a-video-into-github-readme-md)
- 
-### Equipo
+        <!-- CONTENIDO DE LA PAGINA-->
+        <div class="container-fluid p-0">
 
-* Estudiante 1
-* Estudiante 2
-* Estudiante 3
-* Estudiante 4
 
+
+            <!-- ENCABEZADO DE LA PAGINA-->
+            <section class="resume-section" id="intro"> <!-- COLOCAR BOTON DINAMICO INTRO-->
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        UN PASO A LA VEZ: <!-- PALABRA CLAVE AL INICIO DEL TITULO-->
+                        <span class="text-warning">Casas sustentables en Juchitán, Oaxaca</span>  <!-- TITULO PRINCIPAL-->
+                    </h1>
+
+
+                    <div class="subheading mb-5">
+                        Proyecto final del desafío de Clubes de Ciencia México 2021. <!-- SUBTITULO PRINCIPAL-->
+                        <a href="https://www.clubesdeciencia.mx/CdeCMx/Challenge">Lineamientos y reglas.</a>   <!-- AÑADIR LINK A PAGINA DE CLUBES-->
+                    </div>
+
+                    <p class="lead mb-5"> El cambio climático es un tema preocupante en la actualidad. Desde los inicios de la industrialización
+                    en la segunda mitad del siglo XVIII, los gases de efecto invernadero han incrementado de manera notable. De acuerdo con
+                    Caballero et al. (2007), el efecto invernadero hace referencia a "un mecanismo por el cual la atmósfera de la Tierra se
+                    calienta, y es un mecanismo que ha existido desde que la Tierra tiene atmósfera". Si bien, estos gases son necesarios para
+                    mantener una temperatura adecuada en la Tierra, su exceso ha hecho que nuestro planeta se caliente a una velocidad alarmante.
+                    La NASA menciona que la temperatura promedio global se ha incrementado un poco más de 1 °C desde 1880, siendo que dos tercios de
+                    este incremento se han producido desde 1975. </p>
+                    <p class="lead mb-5"> Debido a la presente emergencia climática en la que se debe evitar el aumento de la temperatura global, se debe limitar
+                    el uso de combustibles fósiles para generar energía. El secretario general de la ONU, Antonio Guterres, mencionó: "El 2021 es un
+                    año decisivo para enfretar la emergencia climática global. La ciencia es clara: para limitar el aumento de la temperatura global
+                    a 1.5 °C debemos reducir las emisiones mundiales en un 45% para 2030 desde los niveles de 2010." Es en este momento en el que las
+                    energías renovables juegan un papel vital en la lucha contra el acelerado calentamiento global. </p>  <!-- AÑADIR TEXTO DE INTRODUCCION-->
+
+
+
+
+            <!-- TITULOS Y SUBTEMAS-->
+
+
+
+
+            <!-- PRIMER TITULO-->
+                <section class="resume-section" id="uno"> <!-- COLOCAR BOTON DINAMICO UNO-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Energías renovables</h2>  <!-- NOMBRE DEL PRIMER TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Panorama a futuro: Costos</h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+                            <!-- SUBTITULO DEL PRIMER SUBTITULO-->
+                            <div>Conociendo la necesidad de cambiar las fuentes de energías convencionales por fuentes de energía
+                                renovables, es necesario plantearnos que tan factible es, económicamente hablando, el uso de energías
+                                renovables. Deacuerdo con la Agencia Internacional de Energías Renovables (IRENA), con las políticas
+                                adecuadas, el costo de la electricidad de las tecnologías de energía solar y eólica podrías caer al
+                                menos un 26% y hasta un 59% entre 2015 y 2025. El costo promedio ponderado global de la electricidad para 2025 podría
+                                caer en un 26% para la energía eólica terrestre, en un 35% para la energía eólica marina, en al menos un 37% para
+                                tecnologías de energía solar de concentración (CSP) y en un 59% para la energía solar fotovoltaica (PV).
+                                Esto nos abre camino a que el uso de carbón en la generación de electricidad pueda bajar un 80% por
+                                debajo de los niveles que se usaba en 2010, ya que al ser una energía contaminante, sucia y cada vez más
+                                cara, se optará por usar energías más limpias como la energía solar, principalmente con el uso de paneles solares.</div> <!-- INSERTAR TEXTO-->
+                                <h1></h1>
+                                <h3 class="mb-0">Paneles fotovoltaicos</h3> <!-- NOMBRE DEL SEGUNDO SUBTITULO-->
+                                <div>Estos son un conjunto de celdas solares conectadas en paralelo o serie. Funcionan mediante el efecto fotoeléctrico
+                                  con el cual obtenemos energía eléctrica a partir de la energía luminosa proporcionada por el sol. Actualmente el avances
+                                  en las tecnologías de paneles solares han ayudado a mejorar la eficiencia de estas a tal punto de utilizar cada vez
+                                  menos.</div>
+                            </div>
+                            <div align="center"><img src="assets/img/info1.jpg"></div><!-- INSERTAR SUBTEXTO-->
+                              <h3 class="mb-0"></h3>
+                            <div>
+                        </div>
+
+
+
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                             <!-- SUBTITULO DEL SEGUNDO SUBTITULO-->
+                             <div align="center"><img src="assets/img/info6.jpg"></div><!-- INSERTAR TEXTO-->
+                        </div>
+                         <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)  CAMBIO POR VIDEO-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+            <!-- SEGUNDO TITULO-->
+            <section class="resume-section" id="dos"> <!-- COLOCAR BOTON DINAMICO DOS-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">¿Por qué Juchitán, Oaxaca?</h2>  <!-- NOMBRE DEL SEGUNDO TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"></h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+                            <div class="subheading mb-3"></div> <!-- SUBTITULO DEL PRIMER SUBTITULO-->
+                            <div>El municipio de Juchitán está comprendido en la región del Istmo de Tehuantepec al suroeste del estado de Oaxaca y es receptor de la rica tradición cultural zapoteca. Al norte tiene a la Sierra Madre que atraviesa los pueblos de los Chimalapas y Petapa.
+                            El clima de Juchitán es tropical por lo que es muy cálido con abundantes lluvias en verano y en otoño. La irradianza solar es alta en esta zona y el calor es atemperado en muchas ocasiones por el viento que proviene del Golfo de México y que azota con mucha fuerza en la región. La ciudad está ubicada sobre una planicie, por lo que no hay elevaciones importantes dentro de la ciudad ni en muchos kilómetros a la redonda.
+                            Su población, según el INEGI (2020), es de 113 570 habitantes, colocándose como el tercer municipio más poblado del estado.
+                            <div>Lamentablemente, el 7 de septiembre de 2017 se produjo un terremoto de magnitud 8,2 cercano a las costas de Oaxaca y Chiapas (el más fuerte en México desde hace casi 100 años) que sacudió violentamente la región del Istmo de Tehuantepec causando
+                              el colapso de decenas de casas, negocios y oficinas; siendo así la localidad más afectada del
+                              país. Es por todo lo anterior mencionado que consideramos que el municipio de Juchitán es apropiado para la construcción de casas
+                              sustentables, ya que además de poseer unas condiciones climáticas muy buenas para el aprovechamiento de diversas energías
+                              renovables, esto podría beneficiar directamente a los habitantes de la región al introducir formas de usar diferentes energías
+                              a bajo costo y de fácil aprovechamiento con un diseño estratégico en la construcción de las viviendas.</div>
+                            </div> <!-- INSERTAR TEXTO-->
+                            <p></p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <img scr="assets/img/info.jpg">   <!-- INSERTAR UNA IMAGEN-->
+
+
+
+            <!-- TERCER TITULO-->
+            <section class="resume-section" id="tres"> <!-- COLOCAR BOTON DINAMICO TRES-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">UNA CASA SUSTENTABLE</h2>  <!-- NOMBRE DEL TERCER TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Bioclimática</h3> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+                           <!-- SUBTITULO DEL PRIMER SUBTITULO-->
+                            <div>La arquitectura bioclimática se centra en el diseño y construcción de edificios tomando en cuenta las condiciones climáticas de la región, y se enfoca en el aprovechamiento de los recursos naturales disponibles (sol, vegetación, lluvia, viento) para disminuir en lo posible el impacto ambiental generado por la construcción y el consumo de energía. Este tipo de arquitectura, se basa en la importancia de proporcionar a la construcción confort térmico y acústico, así como de controlar los niveles de dióxido de carbono en los interiores del espacio.
+                            El diseño se realiza considerando el aislamiento térmico (muros gruesos, edificios enterrados, semi-enterrados son ejemplos) y la orientación,  la cual es importante para el adecuado soleamiento y ventilación.
+                            </div>
+                            <ul>
+                              <li>La orientación solar se considera para lograr una iluminación adecuada así como un confort térmico. El sol sale por el Este y se oculta por el Oeste, teniendo una inclinación hacia el Sur. Considerando esto fue pensada la distribución de los espacios de la vivienda. La recámara recibirá la luz natural matutina del Este y gracias a las puertas de carrizo la iluminación será difusa, suficiente para iluminar el espacio sin que resulte saturada.</li>
+                              <li>La correcta ventilación en los hogares mejora la calidad del aire y proporciona una temperatura adecuada, por ello se debe considerar la dirección de los vientos a fin de aprovecharlos al máximo. En Oaxaca, los vientos dominantes provienen del Norte; estos vientos son muy fríos, por lo que deben de evitarse. La fachada principal de la vivienda se encuentra prácticamente cerrada con el fin de bloquear la entrada de estos vientos. Por otra parte, los vientos del Noreste resultan ser los más óptimos; éstos serán captados a través de los espacios entre cada caña de carrizo que se encuentran en el muro de la fachada Noreste. Esto a su vez, nos ayudará a generar un efecto de succión; el viento que es conducido a través del muro de carrizo buscará salir y al contar con grandes puertas corredizas en la parte trasera, se genera una presión y el efecto de succión. Asimismo, la posición de las puertas y el muro favorecen la ventilación cruzada, lo que permite el desplazamiento del viento, logrando que las ráfagas se distribuyan a través de toda la vivienda, mejorando ventilación. Otro efecto logrado es el llamado de “chimenea”; debido a la densidad, los vientos calientes tienden a subir y los fríos a bajar. El techumbre elaborado con bambú y carrizo de la región que se encuentran en la cocina y en el baño de la recámara permiten el flujo de estos vientos, mientras que los fríos se mantendrán en el cuarto, brindando confort al habitante.</li>
+                            </ul>
+                            <div>La aplicación de estas técnicas bioclimáticas nos permite ahorrar energía de manera sencilla y todo está hecho con materiales de bajo costo y amigables con el medio ambiente.</div>
+                                <div class="flex-shrink-0"><span class="text-primary"><!--inicia video--><iframe width="560" height="315" src="https://www.youtube.com/embed/TQ1ZOb6Qjnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--termina video--> </span></div> <!-- INSERTAR TEXTO-->
+                            <p>En el vídeo se da un breve recorrido por la casa explicando de manera sucinta el diseño.</p> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">                       <!-- NOMBRE DEL SEGUNDO SUBTITULO-->                           <!-- INSERTAR TEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+
+            <!-- CUARTO TITULO-->
+            <section class="resume-section" id="cuatro"> <!-- COLOCAR BOTON DINAMICO CUATRO-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">MATERIALES</h2>  <!-- NOMBRE DEL CUARTO TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h4 class="mb-0">Muros de bahareque</h4> <!-- NOMBRE DEL PRIMER SUBTITULO-->
+                             <!-- SUBTITULO DEL PRIMER SUBTITULO-->
+                            <div>El bahareque encementado generalmente consiste en cimentación de concreto (hormigón) reforzado soportando un sobrecimiento de mampostería reforzada o confinada sobre el cual se construye un esqueleto estructural de bambú y/o madera. Una matriz orgánica de caña, bambú de diámetros pequeños, tablillas de bambú o esterilla se fija por medio de clavos a la armadura; una malla de gallinero se clava a la matriz para que actúe como refuerzo. Los muros se terminan con un revoque (o enlucido) de mortero de cemento para formar muros sólidos. El techo (o cubierta) se construye normalmente de tejas de fibro-cemento o de barro (arcilla). Este sistema estructural puede ser diseñado para ser resistente a sismos y vientos extremos. Implica sistemas de construcción simples y prácticos, lo que significa que los hogares pueden ser mantenidos y construidos fácilmente por los beneficiarios, utilizando las habilidades locales y ayudando a mejorar la propiedad de la comunidad.
+                            </div>
+                            <p></p>
+                            <h4 class="mb-0">Pintura ecológica y recubrimiento aislante para exteriores.</h4>
+                            <div>Las pinturas tradicionales son sintéticas y suelen incluir en su composición formaldehído, metales pesados, como mercurio o plomo, y Compuestos Orgánicos Volátiles (COV), como la acetona, que se liberan en un periodo de tiempo de hasta cinco años después de su aplicación. Las pinturas 100% ecológicas naturales no contienen ninguno de estos componentes.
+                            </div>
+                            <div>Para el diseño de la vivienda valoramos el uso de pintura de cal. Su componente principal es la cal aérea que proviene de la descomposición, por calor, de las rocas calizas y el agua que actúa como disolvente. El resto de los componentes varía según el fabricante entre resinas naturales, polvo de mármol y otros aditivos. Los componentes otorgan capacidad fungicida y antiséptica, ya que, gracias a su alcalinidad, impiden la formación de algas y hongos, evitando que en su superficie se asienten esporas de moho, líquenes, bacterias, etc. Además se presenta impermeabilidad, ya que la cal penetra en la porosidad del material sobre el que se asienta, hidrofugándolo y evitando, así, las filtraciones de agua hacia el interior. La característica anterior hace que las pinturas de cal, además de muy resistentes a las inclemencias del tiempo, sean lavables y puedan limpiarse con un paño húmedo.
+                            </div>
+                            <p></p>
+                            <h4 class="mb-0">Paneles solares</h4><!-- INSERTAR TEXTO-->
+                            <div>El funcionamiento de los paneles solares ya se ha explicado anteriormente. Según datos emitidos el 2016 por la SEMARNAT, el consumo eléctrico promedio de una casa es de 1107.63 kWh/ año, por lo que por dia un hogar consume 3,034.6 W. Para el diseño de la vivienda consideramos lo siguiente: Si tenemos un panel solar de 300W necesitaríamos tres paneles solares para satisfacer este consumo.
+                              Por lo tanto, la casa cuenta con este número de paneles solares.</div>
+                            <p></p>
+                            <h4 class="mb-0">Ventanas solares fotovoltaicas.</h4>
+                            <div>Estas ventanas que funcionan como paneles solares, actúan como un concentrador solar luminiscente transparente que crea energía solar. Cabe destacar que son transparentes, porque sólo son capaces de bloquear la luz ultravioleta. Proporcionan la ventaja de que el interior del hogar puede iluminarse con la luz natural a través de la ventana y al mismo tiempo, no interrumpe la vista hacia el exterior.
+                            </div>                             <!-- INSERTAR SUBTEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">                             <!-- INSERTAR TEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- QUINTO TITULO-->
+            <section class="resume-section" id="cinco"> <!-- COLOCAR BOTON DINAMICO CINCO-->
+                <div class="resume-section-content">
+                    <h2 class="mb-5">REFERENCIAS</h2>  <!-- NOMBRE DEL QUINTO TITULO-->
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">                           <!-- NOMBRE DEL PRIMER SUBTITULO--> <!-- SUBTITULO DEL PRIMER SUBTITULO-->
+                          <ul>
+                            <li> Arquitectura sostenible. (2019). Pinturas ecológicas 100% sostenibles. Revisado el 19 de agosto de 2021. Recuperado de: https://arquitectura-sostenible.es/pinturas-ecologicas-100-sostenibles/</li>
+                            <li> Caballero, M., Lozano, S. & Ortega, B. (2007). Efecto invernadero, calentamiento global y cambio climático: una perspectiva desde las ciencias de la Tierra. Revista UNAM. 8(10). </li>
+                            <li> IRENA. (2016). The Power to Change: Solar and Wind Cost Reduction Potential to 2025. Junio 2016. Sitio web: https://www.irena.org/publications/2016/Jun/The-Power-to-Change-Solar-and-Wind-Cost-Reduction-Potential-to-2025 </li>
+                            <li> Kaminski, S., Lawrence, A. & Trujillo, D. (2015). Guía de Diseño para la Vivienda de Bahareque Encementado. INBAR, 38. </li>
+                            <li> NASA. (2020). Global temperatures. Revisado el 16 de julio de 2021. Recuperado de: https://earthobservatory.nasa.gov/world-of-change/global-temperatures </li>
+                            <li> ONU. (2019). Llegar a cero emisiones netas de carbono para 2050, ¿es posible? Revisado el 30 de octubre del 2019. Recuperado de: https://news.un.org/es/story/2019/10/1464591 </li>
+                            <li> ONU. (2021). Cambio climático sin freno: los países están muy lejos de cumplir el Acuerdo de París. Revisado el 26 de febrero del 2021. Recuperado de: https://news.un.org/es/story/2021/02/1488722 </li>
+                            <li> ONU. (2021). Eliminar el carbón de la red eléctrica es el paso más importante para lograr reducir el cambio climático. Revisado el 2 de marzo de 2021. Recuperado de: https://news.un.org/es/story/2021/03/1488902 </li>
+                            <li> SEMARNAT. (2021). Consumo de energía por hogar, 2016. Revisado el 18 de agosto de 2021. Recuperado de: http://dgeiawf.semarnat.gob.mx:8080/ibi_apps/WFServlet?IBIF_ex=D2_ENERGIA06_20&IBIC_user=dgeia_mce&IBIC_pass=dgeia_mce&NOMBREENTIDAD=*&NOMBREANIO= </li>
+                          </ul>  <!-- INSERTAR TEXTO--> <!-- INSERTAR SUBTEXTO-->
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"> <!--idea central--> </span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">                            
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary"><!--idea central--></span></div> <!-- COLOCAR LA IDEA CENTRAL (OPCIONAL)-->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+
+            <!-- TEAM-->
+            <section class="resume-section" id="team"> <!-- COLOCAR BOTON DINAMICO TEAM-->
+              <div class="resume-section-content">
+                  <h2 class="mb-5">EQUIPO</h2> <!-- NOMBRE DEL TEAM-->
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">
+                            <div align="left"><img src="assets/img/Jose.jpg"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 class="mb-0">Aguilar Ramírez José Guadalupe</h3>
+                            <div class="subheading mb-3">Universidad Autónoma de San Luis Potosí</div>
+                            <h5 class="mb-0">Aspirante a ingeniero en Nanotecnología y Energías Renovables de quinto semestre</h5>
+                            <p> Fanatico de las plantas y animales, practica natación y senderismo, le encanta aprender más acerca de botánica y astronomía. En su tiempo libre lee novelas como Harry Potter, Orgullo y Prejuicio, Llano en llamas, entre otras. Practica de vez en cuando fotografía.</p>
+
+            <!-- SEGUNDO ELEMENTO-->
+              <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">
+                            <div align="left"><img src="assets/img/Jaqueline.jpg"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 class="mb-0">Martínez García Jaqueline Adriana</h3>
+                            <div class="subheading mb-3">Universidad Autónoma Benito Juárez de Oaxaca</div>
+                            <h5 class="mb-0">Ingeniera en Innovación Tecnológica</h5>
+                            <p> Su pasión es aprender sobre temas de ciencia (astronomía, física, geología, biología) y energías renovables. Entre sus pasatiempos están la lectura, la divulgación de la ciencia, hacer cursos, jugar videojuegos y salir de paseo en la naturaleza.</p>
+
+            <!-- TERCER ELEMENTO-->
+              <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">
+                            <div align="left"><img src="assets/img/Lilian.jpg"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 class="mb-0">Mata Montero Lilián Crystell</h3>
+                            <div class="subheading mb-3">Universidad Anáhuac Xalapa</div>
+                            <h5 class="mb-0">Aspirante a arquitecta de quinto semestre</h5>
+                            <p> Sus pasatiempos son la lectura y escritura, la fotografía, pintura al óleo y cocinar. Entre sus intereses destacan la arquitectura sustentable y vernácula. Puedes encontrarla en Instagram, Tiktok, Pinterest y Youtube como Granate Arquitectura. </p>
+
+            <!-- CUARTO ELEMENTO-->
+              <div class="resume-section-content">
+                  <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                      <div class="flex-grow-1">
+                            <div align="left"><img src="assets/img/Edoardo.png"></div> <!-- AÑADIR MIEMBRO DEL EQUIPO Y DATOS-->
+                            <h3 class="mb-0">Yáñez Martínez Edoardo</h3>
+                            <div class="subheading mb-3">Universidad Nacional Autónoma de México</div>
+                            <h5 class="mb-0">Aspirante a biólogo de quinto semestre</h5>
+                            <p> Botánico. Apasionado por los idiomas, las ciencias y amante de las artes, especialmente el teatro. Disfruta la lectura de novelas cortas, conocer nuevos lugares y la divulgación de la ciencia en sus tiempos libres. </p>
+
+
+
+
+        <!-- BS core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
